@@ -16,9 +16,10 @@ Currently, this repository only includes the STM32F1xx Cube package, with specif
 The following list of modifications have been made in order to properly build STM32 projects:
 
 (The following changes will need to be made to other linker scripts as needed.)
-File: Device/STM32F1xx/linker/STM32F103XB_FLASH.ld
-* Each blank line contained the `0` character.  Removed `0` from blank lines
-* Added `PROVIDE ( __end__ = . );` to `._user_heap_stack` needed for librdimon
+| File | Modification |
+|------|--------------|
+| Device/STM32F1xx/linker/STM32F103XB_FLASH.ld | Each blank line contained the `0` character.  Removed `0` from blank lines |
+| | Added `PROVIDE ( __end__ = . );` to `._user_heap_stack` needed for librdimon |
 
 ##  Directory Structure
 ---

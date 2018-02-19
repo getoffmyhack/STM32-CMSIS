@@ -27,10 +27,10 @@ Description of each directory as repackaged.
 
 Directory                   Description
 ------------------------    --------------------------------------------------------------
-CMSIS/include			    - ARM Cortex Core M CMSIS include files
-Device/STM32F1xx/include	- STM32F1xx include files
-Device/STM32F1xx/linker		- STM32F1xx gcc linker scripts
-Device/STM32F1xx/src		- STM32F1xx system C source; MCU specific startup ASM sources
+* CMSIS/include			    - ARM Cortex Core M CMSIS include files
+* Device/STM32F1xx/include	- STM32F1xx include files
+* Device/STM32F1xx/linker		- STM32F1xx gcc linker scripts
+* Device/STM32F1xx/src		- STM32F1xx system C source; MCU specific startup ASM sources
 
 
 
